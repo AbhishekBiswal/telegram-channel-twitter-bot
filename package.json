@@ -1,0 +1,16 @@
+{
+  "name": "telegram-channel-send-tweets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Abhishek Biswal",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^3.22.2",
+    "twitter": "^1.7.1"
+  }
+}
