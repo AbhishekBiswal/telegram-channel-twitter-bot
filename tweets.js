@@ -10,7 +10,7 @@ const fs = require('fs');
 
 module.exports.getRecentTweets = function (lastTweetId, callback) {
 	twitter.get("statuses/user_timeline", {
-		user_id: config.twitter.username,
+		screen_name: config.twitter.username,
 		count: 5,
 		trim_user: true,
 		since_id: lastTweetId
